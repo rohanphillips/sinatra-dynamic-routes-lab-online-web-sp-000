@@ -12,10 +12,8 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    params.inspect
-    2.times do
 
-    end
+
       #"#{params[:phrase]}"
 
   end
