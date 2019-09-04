@@ -13,6 +13,8 @@ class App < Sinatra::Base
 
   get '/say/:number/:phrase' do
     params.inspect
+    2.times{}
+      #"#{params[:phrase]}"
 
 
   end
