@@ -16,5 +16,6 @@ class App < Sinatra::Base
       "test"
     end
       #"#{params[:phrase]}"
+    "test"
   end
 end
