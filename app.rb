@@ -12,8 +12,9 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
+    2.times do
 
-
+    end
       #"#{params[:phrase]}"
 
   end
